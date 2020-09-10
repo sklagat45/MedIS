@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.one46health.medis">
+    package="com.sklagat46.medis">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,25 +10,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
-        <activity android:name=".ui.Moh513Activity"
+        <activity android:name="com.sklagat46.medis.ui.Moh513Activity"
             android:theme="@style/AppTheme.NoActionBar" >
 
         </activity>
-        <activity android:name=".ui.Moh514Activity"
+        <activity android:name="com.sklagat46.medis.ui.Moh514Activity"
             android:theme="@style/AppTheme.NoActionBar" >
 
         </activity>
-        <activity android:name=".ui.AddIndividualActivity"
+        <activity android:name="com.sklagat46.medis.ui.AddIndividualActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.ELearningActivity"
+            android:name="com.sklagat46.medis.ui.ELearningActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".ui.ReportsActivity"
+            android:name="com.sklagat46.medis.ui.ReportsActivity"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name=".ui.EventsActivity"
+            android:name="com.sklagat46.medis.ui.EventsActivity"
             android:theme="@style/AppTheme">
         <intent-filter>
             <action android:name="android.intent.action.VIEW" />
@@ -39,28 +39,28 @@
         </activity>
 
         <activity
-            android:name=".ui.ReferralActivity"
+            android:name="com.sklagat46.medis.ui.ReferralActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".ui.IndividualHouseData"
+            android:name="com.sklagat46.medis.ui.IndividualHouseData"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.AddHouseHold"
+            android:name="com.sklagat46.medis.ui.AddHouseHold"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.household.HouseHoldActivity"
+            android:name="com.sklagat46.medis.ui.household.HouseHoldActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.ResetPassword"
+            android:name="com.sklagat46.medis.ui.ResetPassword"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.RegisterActivity"
+            android:name="com.sklagat46.medis.ui.RegisterActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name="com.sklagat46.medis.ui.login.LoginActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".ui.SplashActivity"
+            android:name="com.sklagat46.medis.ui.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -68,10 +68,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.sklagat46.medis.ui.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+           <action android:name="android.intent.action.MAIN" />
 
                 <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             </intent-filter>

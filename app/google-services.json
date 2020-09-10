@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "57141640785",
-    "firebase_url": "https://medis-3db96.firebaseio.com",
-    "project_id": "medis-3db96",
-    "storage_bucket": "medis-3db96.appspot.com"
+    "project_number": "620735527891",
+    "firebase_url": "https://medis-596fd.firebaseio.com",
+    "project_id": "medis-596fd",
+    "storage_bucket": "medis-596fd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:57141640785:android:425fce95462e2f2664c270",
+        "mobilesdk_app_id": "1:620735527891:android:b36a591955caf177330d26",
         "android_client_info": {
-          "package_name": "com.one46health.medis"
+          "package_name": "com.sklagat46.medis"
         }
       },
       "oauth_client": [
         {
-          "client_id": "57141640785-4171k56tlt1aegtq91rlm3n0a8lquoak.apps.googleusercontent.com",
+          "client_id": "620735527891-94llrsoct2tuca77bfnenqnda8g6codb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC1i8VnpJmguEh4K1AbrcFXSahqFTTHME0"
+          "current_key": "AIzaSyD2NeaDwI27eEuSzgtB0j_HL6JPUXTK9Yg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "57141640785-4171k56tlt1aegtq91rlm3n0a8lquoak.apps.googleusercontent.com",
+              "client_id": "620735527891-94llrsoct2tuca77bfnenqnda8g6codb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
